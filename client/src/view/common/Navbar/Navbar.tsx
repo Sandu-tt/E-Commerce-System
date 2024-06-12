@@ -50,7 +50,7 @@ export class Navbar extends Component {
                 <div className={"flex"}>
                     <ul className="list-none mt-2 flex">
                         <li className="mr-5 text-[18px] text-[#e6f0e6] hover:text-red-500 font-bold">
-                            <Link to="/">Home</Link>
+                            <Link to="./">Home</Link>
                         </li>
                         <li className="mr-5 text-[18px] text-[#e6f0e6] hover:text-red-500 font-bold">
                             <Link to="/about">About</Link>
@@ -70,7 +70,7 @@ export class Navbar extends Component {
                 <div className="flex flex-col md:flex-row space-y-2.5 md:space-y-0 md:space-x-2.5">
                     {/*<button className="text-[20px] text-[#e6f0e6] bg-green-400 pl-3 pr-3 hover:text-gray-600 rounded-2xl"><Link to="/login">Log In</Link></button>*/}
                     <button
-                        className="text-[20px] text-[#e6f0e6] bg-green-400 pl-3 pr-3 mr-5 hover:text-gray-600 rounded-2xl">
+                        className="text-[20px] text-[#e6f0e6] bg-gray-400 pl-3 pr-3 mr-5 hover:text-gray-600 rounded-2xl">
                         <Link to="/signin">Sign In</Link></button>
                 </div>
             </div>
