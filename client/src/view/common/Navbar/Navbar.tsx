@@ -36,12 +36,12 @@ export class Navbar extends Component {
         // @ts-ignore
         const { isScrolled } = this.state;
         return (
-            <div className="fixed w-full p-5 bg-[#444544] flex justify-evenly h-20 z-10">
+            <div className="fixed w-full p-5 bg-black flex justify-evenly h-20 z-10">
 
                 <div className="flex">
                     <img className="h-12 ml-1" src={logo}
                          alt=""/>
-                    <h1 className="text-2xl text-secondary">
+                    <h1 className="text-2xl text-red-500 ml-2">
                         VITO</h1>
 
                 </div>
@@ -49,19 +49,19 @@ export class Navbar extends Component {
 
                 <div className={"flex"}>
                     <ul className="list-none mt-2 flex">
-                        <li className="mr-5 text-[18px] text-[#e6f0e6] hover:text-red-500">
+                        <li className="mr-5 text-[18px] text-[#e6f0e6] hover:text-red-500 font-bold">
                             <Link to="/">Home</Link>
                         </li>
-                        <li className="mr-5 text-[18px] text-[#e6f0e6] hover:text-red-500">
+                        <li className="mr-5 text-[18px] text-[#e6f0e6] hover:text-red-500 font-bold">
                             <Link to="/about">About</Link>
                         </li>
-                        <li className="mr-5 text-[18px] text-[#e6f0e6] hover:text-red-500">
+                        <li className="mr-5 text-[18px] text-[#e6f0e6] hover:text-red-500 font-bold">
                             <Link to="/item">Items</Link>
                         </li>
-                        <li className="mr-5 text-[18px] text-[#e6f0e6] hover:text-red-600">
+                        <li className="mr-5 text-[18px] text-[#e6f0e6] hover:text-red-600 font-bold">
                             <Link to="/shopping-cart">My-Cart</Link>
                         </li>
-                        <li className="mr-5 text-[18px] text-[#e6f0e6] hover:text-red-500">
+                        <li className="mr-5 text-[18px] text-[#e6f0e6] hover:text-red-500 font-bold">
                             <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
