@@ -17,36 +17,43 @@ export class About extends Component {
                 <div className={"grid grid-cols-2 gap-5"}>
                     <div className={"mt-20 ml-5 mb-5 mr-5"}>
                         <p>
-                            At Brocelle Shoes, we believe that every step you take should be a stylish statement without
-                            compromising on comfort. Our passion for footwear drives us to curate a diverse collection of
-                            shoes that not only elevate your fashion game but also provide the perfect fit for your
-                            lifestyle.
+                            Welcome to Vito's Pizza, where every slice tells a story of tradition, flavor, and
+                            passion. At  Vito's Pizza , we are dedicated to crafting the most delicious pizzas that
+                            combine the finest ingredients with authentic techniques. Our love for pizza drives us to
+                            create a diverse menu that caters to every palate, ensuring a delightful experience with
+                            every bite.
                             <br/><br/>
-                            Discover the perfect pair for every occasion in our carefully selected range, from casual kicks
-                            to elegant heels. We pride ourselves on offering not just shoes but a curated experience that
-                            reflects the latest trends, exceptional craftsmanship, and unbeatable quality.
+                            Explore our carefully curated selection of pizzas, from classic Margheritas to gourmet
+                            specialties. Each pizza is handcrafted with the utmost care, reflecting our commitment to
+                            exceptional taste and quality. Our secret lies in the perfect balance of fresh,
+                            locally-sourced ingredients and time-honored recipes that have been passed down through
+                            generations.
                             <br/><br/>
-                            What sets us apart is our commitment to ensuring that each step you take is a confident one. Our
-                            team of experts tirelessly seeks out the most comfortable and stylish footwear, so you can
-                            express yourself effortlessly. Whether you're strolling through the city streets, striding into
-                            the office, or dancing the night away, we have the perfect pair to accompany you.
+                            What sets  Vito's Pizza apart is our dedication to providing an unforgettable dining
+                            experience. Our team of culinary experts works tirelessly to ensure that every pizza is a
+                            masterpiece, so you can savor the flavors and enjoy a moment of pure indulgence. Whether
+                            you're dining in, taking out, or getting delivery, we promise to bring the essence of Italy
+                            to your table.
                             <br/><br/>
-                            Thank you for stepping into the world of Brocelle Shoes. We invite you to explore our
-                            collection, embrace your unique style, and step out in confidence with shoes that speak volumes.
-                            Your journey to fashionable comfort starts here!
+                            Thank you for choosing Bella Pizzeria. We invite you to explore our menu, discover your
+                            favorite pizza, and join us in celebrating the art of pizza-making. Your journey to the
+                            perfect pizza starts here!
                         </p>
                     </div>
 
                     <div className={"mt-20 ml-5 mb-5 mr-5 relative"}>
                         <div className={"overflow-hidden rounded-md"}>
-                            <img src={about} alt="" className={"w-full h-auto transition-transform duration-300 transform hover:scale-105"} style={{ borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', objectFit: 'cover' }} />
+                            <img src={about} alt=""
+                                 className={"w-full h-auto transition-transform duration-300 transform hover:scale-105"}
+                                 style={{
+                                     borderRadius: '8px',
+                                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                                     objectFit: 'cover'
+                                 }}/>
                         </div>
                     </div>
 
                 </div>
-
-
-
 
 
             </div>

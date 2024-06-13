@@ -72,14 +72,14 @@ export class Home extends Component {
 
                 </div>
 
-                <div className={"flex bg-cover h-auto bg-fixed bg-blend-color-burn"} style={{backgroundImage: 'url("/background.jpg")'}}>
-                    <div className={"w-full flex p-6"}>
-                        <div className={"flex w-6/12 m-2 justify-center border-b-4 border-r-2 border-white"}>
-                            <img src={pair} alt="" className={"w-full h-auto "} style={{ borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', objectFit: 'cover' }}/>
-                        </div>
-                        <div className={"flex w-6/12 m-2"}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem cum doloribus eum hic ipsum maiores minus nemo nobis nostrum numquam obcaecati officia, optio, pariatur quia quidem soluta tempora temporibus!</div>
-                    </div>
-                </div>
+                {/*<div className={"flex bg-cover h-auto bg-fixed bg-blend-color-burn"} style={{backgroundImage: 'url("/background.jpg")'}}>*/}
+                {/*    <div className={"w-full flex p-6"}>*/}
+                {/*        <div className={"flex w-6/12 m-2 justify-center border-b-4 border-r-2 border-white"}>*/}
+                {/*            <img src={pair} alt="" className={"w-full h-auto "} style={{ borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', objectFit: 'cover' }}/>*/}
+                {/*        </div>*/}
+                {/*        <div className={"flex w-6/12 m-2"}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem cum doloribus eum hic ipsum maiores minus nemo nobis nostrum numquam obcaecati officia, optio, pariatur quia quidem soluta tempora temporibus!</div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
 
 
                 <div>

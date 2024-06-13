@@ -32,7 +32,7 @@ export class Testimonials extends Component {
         };
         return (
             <div className="testimonials-container bg-green-50">
-                <h2 className={"text-2xl m-2 font-Smokum font-semibold"}>Testimonials</h2>
+                <h2 className={"text-2xl m-2 font-Smokum font-semibold"}>CUSTOMER REVIEWS</h2>
                 <Slider {...settings}>
 
                     {/*1*/}
