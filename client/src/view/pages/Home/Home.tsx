@@ -65,7 +65,7 @@ export class Home extends Component {
                         <h1 className="text-white text-center border-transparent border-2 border-solid transition duration-300 hover:border-white">Sale 50% off <br/><span className={"text-white text-center text-3xl font-semibold"}>NEW ARRIVAL</span></h1>
                     </div>
 
-                    <div className="flex-row w-4/12 h-80 bg-cover m-2" style={{backgroundImage: 'url("/new sneakers.jpg")', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                    <div className="flex-row w-4/12 h-80 bg-cover m-2" style={{backgroundImage: 'url("/melt.jpeg")', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                         <h1 className="text-white text-center border-transparent border-2 border-solid transition duration-300 hover:border-white">Sale 50% off <br/><span className={"text-white text-center text-3xl font-semibold"}>NEW SNEAKERS</span></h1>
                     </div>
 
