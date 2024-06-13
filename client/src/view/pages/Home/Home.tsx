@@ -58,15 +58,15 @@ export class Home extends Component {
                 <div className={"flex flex-row m-5"}>
 
                     <div className="flex-row w-4/12 h-80 bg-cover m-2 " style={{backgroundImage: 'url("/pepperoni.jpg")', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <h1 className="text-white text-center border-transparent border-2 border-solid transition duration-300 hover:border-white">Sale 50% off <br/><span className={"text-white text-center text-3xl font-semibold"}>SPORT SHOES</span></h1>
+                        <h1 className="text-white text-center border-transparent border-2 border-solid transition duration-300 hover:border-white">Rs2990.00 ONLY <br/><span className={"text-black text-center text-3xl font-semibold"}>Classic Pizza</span></h1>
                     </div>
 
-                    <div className="flex-row w-4/12 h-80 bg-cover m-2" style={{backgroundImage: 'url("/pizza2.jpg")', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <h1 className="text-white text-center border-transparent border-2 border-solid transition duration-300 hover:border-white">Sale 50% off <br/><span className={"text-white text-center text-3xl font-semibold"}>NEW ARRIVAL</span></h1>
+                    <div className="flex-row w-4/12 h-80 bg-cover m-2" style={{backgroundImage: 'url("/margherita.jpg")', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                        <h1 className="text-white text-center border-transparent border-2 border-solid transition duration-300 hover:border-white"> Today 50% off <br/><span className={"text-black text-center text-3xl font-bold"}>NEW ARRIVAL</span></h1>
                     </div>
 
-                    <div className="flex-row w-4/12 h-80 bg-cover m-2" style={{backgroundImage: 'url("/melt.jpeg")', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <h1 className="text-white text-center border-transparent border-2 border-solid transition duration-300 hover:border-white">Sale 50% off <br/><span className={"text-white text-center text-3xl font-semibold"}>NEW SNEAKERS</span></h1>
+                    <div className="flex-row w-4/12 h-80 bg-cover m-2" style={{backgroundImage: 'url("/melt2.jpeg")', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                        <h1 className="text-white text-center border-transparent border-2 border-solid transition duration-300 hover:border-white">Rs 890.00 ONLY <br/><span className={"text-black text-center text-3xl font-bold"}>PIZZA MELT</span></h1>
                     </div>
 
 
