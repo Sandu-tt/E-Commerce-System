@@ -31,7 +31,16 @@ const productsList = [
         "description": "Delicious plant-based pizza, cruelty-free and healthy..",
         "image": "vegan.jpg"
     },
+    {
 
+        "id": 5,
+        "name": "Pineapple Pizza",
+        "price": "2000",
+        "currency": "LKR",
+        "description": "Tropical pineapple meets savory pizza in delicious harmony..",
+        "image": "pineapple.jpg"
+
+    }
 ]
 
 const test = [];
