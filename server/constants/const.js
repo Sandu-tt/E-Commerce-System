@@ -25,36 +25,12 @@ const productsList = [
     },
     {
         "id": 4,
-        "name": "Sneakers",
+        "name": "Vegan Pizza",
         "price": "3000",
         "currency": "LKR",
-        "description": "Stylish sneakers for a trendy, comfortable, and sporty everyday look.",
-        "image": ""
+        "description": "Delicious plant-based pizza, cruelty-free and healthy..",
+        "image": "vegan.jpg"
     },
-    {
-        "id": 5,
-        "name": "",
-        "price": "2000",
-        "currency": "LKR",
-        "description": "Stylish and versatile women's sneakers, perfect for a comfortable and fashionable look.",
-        "image": ""
-    },
-    {
-        "id": 6,
-        "name": "",
-        "price": "4000",
-        "currency": "LKR",
-        "description": "Stylish high heels for a chic, confident, and glamorous appearance.",
-        "image": ""
-    },
-    {
-        "id": 7,
-        "name": "]",
-        "price": "2000",
-        "currency": "LKR",
-        "description": "Effortlessly stylish and comfortable flat shoes, ideal for ladies' everyday fashion.",
-        "image": ""
-    }
 
 ]
 
