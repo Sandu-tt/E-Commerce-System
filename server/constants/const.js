@@ -49,11 +49,27 @@ const productsList = [
     },
     {
         "id": 7,
-        "name": "",
-        "price": "2000",
+        "name": "Mediterranean Feast Pizza",
+        "price": "3200",
         "currency": "LKR",
-        "description": "Effortlessly stylish and comfortable flat shoes, ideal for ladies' everyday fashion.",
-        "image": ""
+        "description": "Artichoke, olives, sun-dried tomatoes, feta, arugula, balsamic glaze..",
+        "image": "Mediterranean Feast Pizza.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Supreme Delight Pizza",
+        "price": "3800",
+        "currency": "LKR",
+        "description": "Indulge in the ultimate pizza experience with a perfect blend of premium meats, fresh vegetables, and a hint of spice for an unforgettable flavor explosion..",
+        "image": "Supreme Delight Pizza.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Supreme Delight Pizza",
+        "price": "3500",
+        "currency": "LKR",
+        "description": "Tangy BBQ sauce, grilled chicken, red onions, cilantro..",
+        "image": "bbqpizza.webp"
     }
 
 ]
