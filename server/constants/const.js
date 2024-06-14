@@ -41,6 +41,14 @@ const productsList = [
         "image": "pineapple.jpg"
 
     }
+    {
+        "id": 6,
+        "name": "Very Expensive Pizza",
+        "price": "4500",
+        "currency": "LKR",
+        "description": "Luxury pizzas with premium ingredients, priced extravagantly..",
+        "image": "expensive.jpg"
+    },
 ]
 
 const test = [];
