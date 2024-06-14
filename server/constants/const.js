@@ -32,23 +32,30 @@ const productsList = [
         "image": "vegan.jpg"
     },
     {
-
         "id": 5,
         "name": "Pineapple Pizza",
         "price": "2000",
         "currency": "LKR",
         "description": "Tropical pineapple meets savory pizza in delicious harmony..",
         "image": "pineapple.jpg"
-
-    }
+    },
     {
         "id": 6,
         "name": "Very Expensive Pizza",
-        "price": "4500",
+        "price": "4000",
         "currency": "LKR",
         "description": "Luxury pizzas with premium ingredients, priced extravagantly..",
         "image": "expensive.jpg"
     },
+    {
+        "id": 7,
+        "name": "",
+        "price": "2000",
+        "currency": "LKR",
+        "description": "Effortlessly stylish and comfortable flat shoes, ideal for ladies' everyday fashion.",
+        "image": ""
+    }
+
 ]
 
 const test = [];
