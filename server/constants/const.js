@@ -17,11 +17,11 @@ const productsList = [
     },
     {
         "id": 3,
-        "name": " ",
-        "price": "5000",
+        "name": "PedroTech Special Pizza ",
+        "price": "2500",
         "currency": "LKR",
-        "description": "Elegant men's office shoes for polished professionalism and all-day comfort.",
-        "image": ""
+        "description": "Delicious pizza with unique, flavorful ingredient combinations..",
+        "image": "pedrotechspecial.jpg"
     },
     {
         "id": 4,
