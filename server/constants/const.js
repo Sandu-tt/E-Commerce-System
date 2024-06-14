@@ -1,11 +1,11 @@
 const productsList = [
     {
         "id": 1,
-        "name": "PP ",
-        "price": "5000",
+        "name": "Margherita Pizza ",
+        "price": "3500",
         "currency": "LKR",
-        "description": "Innovative Nike shoe, blending comfort, style, and cutting-edge performance technology.",
-        "image": "pizza.jpeg"
+        "description": "Classic pizza with tomato, mozzarella, and basil..",
+        "image": "margherita.jpg"
     },
     {
         "id": 2,
