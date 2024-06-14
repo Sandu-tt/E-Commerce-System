@@ -9,11 +9,11 @@ const productsList = [
     },
     {
         "id": 2,
-        "name": "Casual Shoes",
-        "price": "4000",
+        "name": "Pepper Salami pizza",
+        "price": "4500",
         "currency": "LKR",
-        "description": "Comfortable, versatile men's shoes for a casually stylish and modern look.",
-        "image": "multiplePizzas.jpeg"
+        "description": "Cheesy delight topped with spicy pepperoni slices..",
+        "image": "pepperoni.jpg"
     },
     {
         "id": 3,
