@@ -25,10 +25,13 @@ export class ShoppingCart extends Component <ShoppingCartProps, ShoppingCartStat
     }
     render() {
         return (
-            <div className="flex-row flex-wrap min-h-screen bg-cover bg-center" style={{ backgroundImage: 'url("/pizzaandkids.jpg")' }}>
-                <div className="flex justify-center items-center w-full overflow-x-auto">
-                    <table className="w-full divide-y divide-gray-600 mt-20">
-                        <thead className="bg-gray-50">
+            <div className="flex-row flex-wrap min-h-screen bg-cover bg-center bg-custom-size"
+                 style={{backgroundImage: 'url("/ezgif-7-00c01bc5f2.jpg")'}}>
+
+
+        <div className="flex justify-center items-center w-full overflow-x-auto">
+            <table className="w-full divide-y divide-gray-600 mt-20">
+            <thead className="bg-gray-50">
                         <tr>
                             <th className="px-4 sm:px-6 py-3 text-left text-xs sm:text-sm font-medium font-serif uppercase tracking-wider">ID</th>
                             <th className="px-4 sm:px-6 py-3 text-left text-xs sm:text-sm font-medium font-serif uppercase tracking-wider">Name</th>
@@ -60,14 +63,16 @@ export class ShoppingCart extends Component <ShoppingCartProps, ShoppingCartStat
                     </table>
                 </div>
 
-                <div className="flex justify-center items-center ml-[900px] text-2xl ">
+                <div className="flex justify-center items-center ml-[900px] text-2xl text-red-500">
                     {/*Total Amount : {total} LKR*/}
                     Total Amount : {this.state.total} LKR
                     <button
-                        className="ml-10 mt-3 mb-32 bg-green-400  w-56 h-16 pt-3 font-bold hover:bg-orange-500 hover:text-white text-2xl rounded-lg"
+                        className="ml-10 mt-3 mb-32 bg-white text-black w-56 h-16 pt-3 font-bold hover:bg-red-500 hover:text-white text-2xl rounded-lg"
                         onClick={this.clickOnProceed}>
                         Proceed Payment
                     </button>
+
+
                 </div>
 
             </div>
